@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="C9M-sC-d3u" customClass="RadiousMeter" customModule="RJProximityMeter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="kG9-tl-gmN">
+                    <rect key="frame" x="38.5" y="86" width="58" height="495"/>
+                    <subviews>
+                        <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="proximity_marker.png" translatesAutoresizingMaskIntoConstraints="NO" id="jUg-rK-nae">
+                            <rect key="frame" x="0.0" y="10" width="58" height="48"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="48" id="5kG-Fm-qDM"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="58" id="Dbh-FP-YbK"/>
+                        <constraint firstItem="jUg-rK-nae" firstAttribute="leading" secondItem="kG9-tl-gmN" secondAttribute="leading" id="qsg-IR-faU"/>
+                        <constraint firstItem="jUg-rK-nae" firstAttribute="top" secondItem="kG9-tl-gmN" secondAttribute="top" constant="10" id="tFP-GZ-Kg6"/>
+                        <constraint firstAttribute="trailing" secondItem="jUg-rK-nae" secondAttribute="trailing" id="x5J-bO-q3c"/>
+                    </constraints>
+                </view>
+                <view userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhl-DB-fGV">
+                    <rect key="frame" x="-120" y="146" width="375" height="375"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gde-7W-E7v">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="Gde-7W-E7v" firstAttribute="leading" secondItem="dhl-DB-fGV" secondAttribute="leading" id="3y1-12-NLp"/>
+                        <constraint firstAttribute="width" secondItem="dhl-DB-fGV" secondAttribute="height" multiplier="1:1" id="Dgr-M0-vC4"/>
+                        <constraint firstAttribute="trailing" secondItem="Gde-7W-E7v" secondAttribute="trailing" id="Emc-pm-sAs"/>
+                        <constraint firstItem="Gde-7W-E7v" firstAttribute="top" secondItem="dhl-DB-fGV" secondAttribute="top" id="NAW-ng-YOp"/>
+                        <constraint firstAttribute="bottom" secondItem="Gde-7W-E7v" secondAttribute="bottom" id="p3q-NC-cyQ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornorRadious">
+                            <real key="value" value="150"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderUIColor">
+                            <color key="value" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="dhl-DB-fGV" firstAttribute="centerX" secondItem="kG9-tl-gmN" secondAttribute="centerX" id="8OK-Hg-CUB"/>
+                <constraint firstItem="dhl-DB-fGV" firstAttribute="centerY" secondItem="kG9-tl-gmN" secondAttribute="centerY" id="I5k-ka-LCN"/>
+                <constraint firstItem="kG9-tl-gmN" firstAttribute="height" secondItem="dhl-DB-fGV" secondAttribute="height" constant="120" id="KcS-cT-Xmw"/>
+                <constraint firstItem="dhl-DB-fGV" firstAttribute="width" secondItem="C9M-sC-d3u" secondAttribute="width" multiplier="375:375" id="d0x-WD-pD9"/>
+                <constraint firstItem="dhl-DB-fGV" firstAttribute="centerX" secondItem="C9M-sC-d3u" secondAttribute="centerX" constant="-120" id="fKm-Qv-6zh"/>
+                <constraint firstItem="dhl-DB-fGV" firstAttribute="centerY" secondItem="C9M-sC-d3u" secondAttribute="centerY" id="h4w-HS-Ieg"/>
+            </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornorRadious">
+                    <real key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="cnstCenterX" destination="fKm-Qv-6zh" id="vTk-eg-fOz"/>
+                <outlet property="imgMarker" destination="jUg-rK-nae" id="Uqb-kb-7qW"/>
+                <outlet property="viewHalfCircle" destination="dhl-DB-fGV" id="re4-41-FRL"/>
+                <outlet property="viewHalfPointer" destination="kG9-tl-gmN" id="ch9-ky-s3G"/>
+                <outlet property="viewMap" destination="Gde-7W-E7v" id="1jU-8Z-Zjo"/>
+            </connections>
+            <point key="canvasLocation" x="-595.5" y="-285.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="proximity_marker.png" width="100" height="100"/>
+    </resources>
+</document>

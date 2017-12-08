@@ -1,0 +1,839 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4980491C1FDA9BB000D4E386 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980491B1FDA9BB000D4E386 /* AppDelegate.swift */; };
+		4980491E1FDA9BB000D4E386 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980491D1FDA9BB000D4E386 /* ViewController.swift */; };
+		498049211FDA9BB000D4E386 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4980491F1FDA9BB000D4E386 /* Main.storyboard */; };
+		498049231FDA9BB000D4E386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498049221FDA9BB000D4E386 /* Assets.xcassets */; };
+		498049261FDA9BB000D4E386 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 498049241FDA9BB000D4E386 /* LaunchScreen.storyboard */; };
+		498049311FDA9BB000D4E386 /* RJProximityMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498049301FDA9BB000D4E386 /* RJProximityMeterTests.swift */; };
+		4980493C1FDA9BB000D4E386 /* RJProximityMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980493B1FDA9BB000D4E386 /* RJProximityMeterUITests.swift */; };
+		498049521FDA9C1400D4E386 /* ProximityScaleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980494B1FDA9C1400D4E386 /* ProximityScaleView.swift */; };
+		498049531FDA9C1400D4E386 /* RadiousMeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980494D1FDA9C1400D4E386 /* RadiousMeter.swift */; };
+		498049541FDA9C1400D4E386 /* RadiousMeter.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4980494E1FDA9C1400D4E386 /* RadiousMeter.xib */; };
+		498049551FDA9C1400D4E386 /* Style.json in Resources */ = {isa = PBXBuildFile; fileRef = 4980494F1FDA9C1400D4E386 /* Style.json */; };
+		498049561FDA9C1400D4E386 /* SetProximityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498049501FDA9C1400D4E386 /* SetProximityVC.swift */; };
+		498049571FDA9C1400D4E386 /* SetProximityVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498049511FDA9C1400D4E386 /* SetProximityVC.xib */; };
+		4980495A1FDA9C5900D4E386 /* CategoryClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498049591FDA9C5900D4E386 /* CategoryClass.swift */; };
+		4980495D1FDAA0B000D4E386 /* LocationUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4980495C1FDAA0B000D4E386 /* LocationUpdater.swift */; };
+		4980495F1FDAA1ED00D4E386 /* proximity_marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 4980495E1FDAA1ED00D4E386 /* proximity_marker.png */; };
+		9B5889DF47672789D3C4970E /* Pods_RJProximityMeterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D50CBBAC9909EB8197165966 /* Pods_RJProximityMeterUITests.framework */; };
+		AF09257F96A4244D912A9A8E /* Pods_RJProximityMeter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70161A973A3C090500E7F198 /* Pods_RJProximityMeter.framework */; };
+		FE09829C5C0C7891C322B7B4 /* Pods_RJProximityMeterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96B60E5816FA6AFA1A870C25 /* Pods_RJProximityMeterTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4980492D1FDA9BB000D4E386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498049101FDA9BB000D4E386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498049171FDA9BB000D4E386;
+			remoteInfo = RJProximityMeter;
+		};
+		498049381FDA9BB000D4E386 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 498049101FDA9BB000D4E386 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 498049171FDA9BB000D4E386;
+			remoteInfo = RJProximityMeter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2044D0CC3709A990646CF2CD /* Pods-RJProximityMeterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJProximityMeterUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJProximityMeterUITests/Pods-RJProximityMeterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3DA74430C4AA7C919F9809B8 /* Pods-RJProximityMeterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJProximityMeterUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJProximityMeterUITests/Pods-RJProximityMeterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		498049181FDA9BB000D4E386 /* RJProximityMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJProximityMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4980491B1FDA9BB000D4E386 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4980491D1FDA9BB000D4E386 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		498049201FDA9BB000D4E386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		498049221FDA9BB000D4E386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		498049251FDA9BB000D4E386 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		498049271FDA9BB000D4E386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4980492C1FDA9BB000D4E386 /* RJProximityMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJProximityMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		498049301FDA9BB000D4E386 /* RJProximityMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJProximityMeterTests.swift; sourceTree = "<group>"; };
+		498049321FDA9BB000D4E386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		498049371FDA9BB000D4E386 /* RJProximityMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJProximityMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4980493B1FDA9BB000D4E386 /* RJProximityMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RJProximityMeterUITests.swift; sourceTree = "<group>"; };
+		4980493D1FDA9BB000D4E386 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4980494B1FDA9C1400D4E386 /* ProximityScaleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProximityScaleView.swift; sourceTree = "<group>"; };
+		4980494D1FDA9C1400D4E386 /* RadiousMeter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiousMeter.swift; sourceTree = "<group>"; };
+		4980494E1FDA9C1400D4E386 /* RadiousMeter.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RadiousMeter.xib; sourceTree = "<group>"; };
+		4980494F1FDA9C1400D4E386 /* Style.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Style.json; sourceTree = "<group>"; };
+		498049501FDA9C1400D4E386 /* SetProximityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetProximityVC.swift; sourceTree = "<group>"; };
+		498049511FDA9C1400D4E386 /* SetProximityVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetProximityVC.xib; sourceTree = "<group>"; };
+		498049591FDA9C5900D4E386 /* CategoryClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryClass.swift; sourceTree = "<group>"; };
+		4980495C1FDAA0B000D4E386 /* LocationUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationUpdater.swift; sourceTree = "<group>"; };
+		4980495E1FDAA1ED00D4E386 /* proximity_marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = proximity_marker.png; sourceTree = "<group>"; };
+		4CAF26FD60068CC64C98A9E2 /* Pods-RJProximityMeter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJProximityMeter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJProximityMeter/Pods-RJProximityMeter.debug.xcconfig"; sourceTree = "<group>"; };
+		5C402BF93BA57237930A520F /* Pods-RJProximityMeterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJProximityMeterTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJProximityMeterTests/Pods-RJProximityMeterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70161A973A3C090500E7F198 /* Pods_RJProximityMeter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJProximityMeter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		780220F23057AD125DC12786 /* Pods-RJProximityMeterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJProximityMeterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJProximityMeterTests/Pods-RJProximityMeterTests.release.xcconfig"; sourceTree = "<group>"; };
+		96B60E5816FA6AFA1A870C25 /* Pods_RJProximityMeterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJProximityMeterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D50CBBAC9909EB8197165966 /* Pods_RJProximityMeterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RJProximityMeterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE53E5E2495B196EE2494298 /* Pods-RJProximityMeter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJProximityMeter.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJProximityMeter/Pods-RJProximityMeter.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		498049151FDA9BB000D4E386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF09257F96A4244D912A9A8E /* Pods_RJProximityMeter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498049291FDA9BB000D4E386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE09829C5C0C7891C322B7B4 /* Pods_RJProximityMeterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498049341FDA9BB000D4E386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5889DF47672789D3C4970E /* Pods_RJProximityMeterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4980490F1FDA9BB000D4E386 = {
+			isa = PBXGroup;
+			children = (
+				4980491A1FDA9BB000D4E386 /* RJProximityMeter */,
+				4980492F1FDA9BB000D4E386 /* RJProximityMeterTests */,
+				4980493A1FDA9BB000D4E386 /* RJProximityMeterUITests */,
+				498049191FDA9BB000D4E386 /* Products */,
+				90948958C4B74B8DFC14B4BE /* Pods */,
+				DE02454E961C85E7BFDD4FBE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		498049191FDA9BB000D4E386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				498049181FDA9BB000D4E386 /* RJProximityMeter.app */,
+				4980492C1FDA9BB000D4E386 /* RJProximityMeterTests.xctest */,
+				498049371FDA9BB000D4E386 /* RJProximityMeterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4980491A1FDA9BB000D4E386 /* RJProximityMeter */ = {
+			isa = PBXGroup;
+			children = (
+				4980491B1FDA9BB000D4E386 /* AppDelegate.swift */,
+				4980491D1FDA9BB000D4E386 /* ViewController.swift */,
+				4980495B1FDAA0B000D4E386 /* LocationUpdater */,
+				498049491FDA9C1400D4E386 /* SetProximity */,
+				4980491F1FDA9BB000D4E386 /* Main.storyboard */,
+				4980495E1FDAA1ED00D4E386 /* proximity_marker.png */,
+				498049581FDA9C5900D4E386 /* CategoryClass */,
+				498049221FDA9BB000D4E386 /* Assets.xcassets */,
+				498049241FDA9BB000D4E386 /* LaunchScreen.storyboard */,
+				498049271FDA9BB000D4E386 /* Info.plist */,
+			);
+			path = RJProximityMeter;
+			sourceTree = "<group>";
+		};
+		4980492F1FDA9BB000D4E386 /* RJProximityMeterTests */ = {
+			isa = PBXGroup;
+			children = (
+				498049301FDA9BB000D4E386 /* RJProximityMeterTests.swift */,
+				498049321FDA9BB000D4E386 /* Info.plist */,
+			);
+			path = RJProximityMeterTests;
+			sourceTree = "<group>";
+		};
+		4980493A1FDA9BB000D4E386 /* RJProximityMeterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4980493B1FDA9BB000D4E386 /* RJProximityMeterUITests.swift */,
+				4980493D1FDA9BB000D4E386 /* Info.plist */,
+			);
+			path = RJProximityMeterUITests;
+			sourceTree = "<group>";
+		};
+		498049491FDA9C1400D4E386 /* SetProximity */ = {
+			isa = PBXGroup;
+			children = (
+				4980494A1FDA9C1400D4E386 /* ProximityScale */,
+				4980494C1FDA9C1400D4E386 /* RadiousMeter */,
+				498049501FDA9C1400D4E386 /* SetProximityVC.swift */,
+				498049511FDA9C1400D4E386 /* SetProximityVC.xib */,
+			);
+			path = SetProximity;
+			sourceTree = "<group>";
+		};
+		4980494A1FDA9C1400D4E386 /* ProximityScale */ = {
+			isa = PBXGroup;
+			children = (
+				4980494B1FDA9C1400D4E386 /* ProximityScaleView.swift */,
+			);
+			path = ProximityScale;
+			sourceTree = "<group>";
+		};
+		4980494C1FDA9C1400D4E386 /* RadiousMeter */ = {
+			isa = PBXGroup;
+			children = (
+				4980494D1FDA9C1400D4E386 /* RadiousMeter.swift */,
+				4980494E1FDA9C1400D4E386 /* RadiousMeter.xib */,
+				4980494F1FDA9C1400D4E386 /* Style.json */,
+			);
+			path = RadiousMeter;
+			sourceTree = "<group>";
+		};
+		498049581FDA9C5900D4E386 /* CategoryClass */ = {
+			isa = PBXGroup;
+			children = (
+				498049591FDA9C5900D4E386 /* CategoryClass.swift */,
+			);
+			path = CategoryClass;
+			sourceTree = "<group>";
+		};
+		4980495B1FDAA0B000D4E386 /* LocationUpdater */ = {
+			isa = PBXGroup;
+			children = (
+				4980495C1FDAA0B000D4E386 /* LocationUpdater.swift */,
+			);
+			path = LocationUpdater;
+			sourceTree = "<group>";
+		};
+		90948958C4B74B8DFC14B4BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CAF26FD60068CC64C98A9E2 /* Pods-RJProximityMeter.debug.xcconfig */,
+				FE53E5E2495B196EE2494298 /* Pods-RJProximityMeter.release.xcconfig */,
+				5C402BF93BA57237930A520F /* Pods-RJProximityMeterTests.debug.xcconfig */,
+				780220F23057AD125DC12786 /* Pods-RJProximityMeterTests.release.xcconfig */,
+				2044D0CC3709A990646CF2CD /* Pods-RJProximityMeterUITests.debug.xcconfig */,
+				3DA74430C4AA7C919F9809B8 /* Pods-RJProximityMeterUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE02454E961C85E7BFDD4FBE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70161A973A3C090500E7F198 /* Pods_RJProximityMeter.framework */,
+				96B60E5816FA6AFA1A870C25 /* Pods_RJProximityMeterTests.framework */,
+				D50CBBAC9909EB8197165966 /* Pods_RJProximityMeterUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		498049171FDA9BB000D4E386 /* RJProximityMeter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498049401FDA9BB000D4E386 /* Build configuration list for PBXNativeTarget "RJProximityMeter" */;
+			buildPhases = (
+				7D0B76339182919653719C44 /* [CP] Check Pods Manifest.lock */,
+				498049141FDA9BB000D4E386 /* Sources */,
+				498049151FDA9BB000D4E386 /* Frameworks */,
+				498049161FDA9BB000D4E386 /* Resources */,
+				84674B08300E3C988313C4A1 /* [CP] Embed Pods Frameworks */,
+				3FA57F265D7E2EE5DE92D9C3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJProximityMeter;
+			productName = RJProximityMeter;
+			productReference = 498049181FDA9BB000D4E386 /* RJProximityMeter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4980492B1FDA9BB000D4E386 /* RJProximityMeterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498049431FDA9BB000D4E386 /* Build configuration list for PBXNativeTarget "RJProximityMeterTests" */;
+			buildPhases = (
+				CDA1C74EE537026AF84337D9 /* [CP] Check Pods Manifest.lock */,
+				498049281FDA9BB000D4E386 /* Sources */,
+				498049291FDA9BB000D4E386 /* Frameworks */,
+				4980492A1FDA9BB000D4E386 /* Resources */,
+				DE5C0682CDBEC15F2C917092 /* [CP] Embed Pods Frameworks */,
+				F1779F099208AB15057B8D38 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4980492E1FDA9BB000D4E386 /* PBXTargetDependency */,
+			);
+			name = RJProximityMeterTests;
+			productName = RJProximityMeterTests;
+			productReference = 4980492C1FDA9BB000D4E386 /* RJProximityMeterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		498049361FDA9BB000D4E386 /* RJProximityMeterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 498049461FDA9BB000D4E386 /* Build configuration list for PBXNativeTarget "RJProximityMeterUITests" */;
+			buildPhases = (
+				9C850ED65048AF874A25B449 /* [CP] Check Pods Manifest.lock */,
+				498049331FDA9BB000D4E386 /* Sources */,
+				498049341FDA9BB000D4E386 /* Frameworks */,
+				498049351FDA9BB000D4E386 /* Resources */,
+				B3B3DB747E7FAA684119506B /* [CP] Embed Pods Frameworks */,
+				EEACDD0AE287FD56901C1806 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				498049391FDA9BB000D4E386 /* PBXTargetDependency */,
+			);
+			name = RJProximityMeterUITests;
+			productName = RJProximityMeterUITests;
+			productReference = 498049371FDA9BB000D4E386 /* RJProximityMeterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		498049101FDA9BB000D4E386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = RJ;
+				TargetAttributes = {
+					498049171FDA9BB000D4E386 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					4980492B1FDA9BB000D4E386 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 498049171FDA9BB000D4E386;
+					};
+					498049361FDA9BB000D4E386 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 498049171FDA9BB000D4E386;
+					};
+				};
+			};
+			buildConfigurationList = 498049131FDA9BB000D4E386 /* Build configuration list for PBXProject "RJProximityMeter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4980490F1FDA9BB000D4E386;
+			productRefGroup = 498049191FDA9BB000D4E386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				498049171FDA9BB000D4E386 /* RJProximityMeter */,
+				4980492B1FDA9BB000D4E386 /* RJProximityMeterTests */,
+				498049361FDA9BB000D4E386 /* RJProximityMeterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		498049161FDA9BB000D4E386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498049261FDA9BB000D4E386 /* LaunchScreen.storyboard in Resources */,
+				498049571FDA9C1400D4E386 /* SetProximityVC.xib in Resources */,
+				4980495F1FDAA1ED00D4E386 /* proximity_marker.png in Resources */,
+				498049551FDA9C1400D4E386 /* Style.json in Resources */,
+				498049541FDA9C1400D4E386 /* RadiousMeter.xib in Resources */,
+				498049231FDA9BB000D4E386 /* Assets.xcassets in Resources */,
+				498049211FDA9BB000D4E386 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4980492A1FDA9BB000D4E386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498049351FDA9BB000D4E386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FA57F265D7E2EE5DE92D9C3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RJProximityMeter/Pods-RJProximityMeter-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJProximityMeter/Pods-RJProximityMeter-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0B76339182919653719C44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RJProximityMeter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84674B08300E3C988313C4A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJProximityMeter/Pods-RJProximityMeter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C850ED65048AF874A25B449 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RJProximityMeterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3B3DB747E7FAA684119506B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJProximityMeterUITests/Pods-RJProximityMeterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA1C74EE537026AF84337D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RJProximityMeterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE5C0682CDBEC15F2C917092 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJProximityMeterTests/Pods-RJProximityMeterTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEACDD0AE287FD56901C1806 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJProximityMeterUITests/Pods-RJProximityMeterUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1779F099208AB15057B8D38 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJProximityMeterTests/Pods-RJProximityMeterTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		498049141FDA9BB000D4E386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4980495D1FDAA0B000D4E386 /* LocationUpdater.swift in Sources */,
+				4980491E1FDA9BB000D4E386 /* ViewController.swift in Sources */,
+				498049531FDA9C1400D4E386 /* RadiousMeter.swift in Sources */,
+				498049561FDA9C1400D4E386 /* SetProximityVC.swift in Sources */,
+				498049521FDA9C1400D4E386 /* ProximityScaleView.swift in Sources */,
+				4980495A1FDA9C5900D4E386 /* CategoryClass.swift in Sources */,
+				4980491C1FDA9BB000D4E386 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498049281FDA9BB000D4E386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498049311FDA9BB000D4E386 /* RJProximityMeterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		498049331FDA9BB000D4E386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4980493C1FDA9BB000D4E386 /* RJProximityMeterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4980492E1FDA9BB000D4E386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498049171FDA9BB000D4E386 /* RJProximityMeter */;
+			targetProxy = 4980492D1FDA9BB000D4E386 /* PBXContainerItemProxy */;
+		};
+		498049391FDA9BB000D4E386 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 498049171FDA9BB000D4E386 /* RJProximityMeter */;
+			targetProxy = 498049381FDA9BB000D4E386 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4980491F1FDA9BB000D4E386 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498049201FDA9BB000D4E386 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		498049241FDA9BB000D4E386 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				498049251FDA9BB000D4E386 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4980493E1FDA9BB000D4E386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4980493F1FDA9BB000D4E386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		498049411FDA9BB000D4E386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAF26FD60068CC64C98A9E2 /* Pods-RJProximityMeter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJProximityMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.RJProximityMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		498049421FDA9BB000D4E386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE53E5E2495B196EE2494298 /* Pods-RJProximityMeter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJProximityMeter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.RJProximityMeter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		498049441FDA9BB000D4E386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C402BF93BA57237930A520F /* Pods-RJProximityMeterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJProximityMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.RJProximityMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJProximityMeter.app/RJProximityMeter";
+			};
+			name = Debug;
+		};
+		498049451FDA9BB000D4E386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780220F23057AD125DC12786 /* Pods-RJProximityMeterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJProximityMeterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.RJProximityMeterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJProximityMeter.app/RJProximityMeter";
+			};
+			name = Release;
+		};
+		498049471FDA9BB000D4E386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2044D0CC3709A990646CF2CD /* Pods-RJProximityMeterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJProximityMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.RJProximityMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RJProximityMeter;
+			};
+			name = Debug;
+		};
+		498049481FDA9BB000D4E386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DA74430C4AA7C919F9809B8 /* Pods-RJProximityMeterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RJProximityMeterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = rj.RJProximityMeterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RJProximityMeter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		498049131FDA9BB000D4E386 /* Build configuration list for PBXProject "RJProximityMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4980493E1FDA9BB000D4E386 /* Debug */,
+				4980493F1FDA9BB000D4E386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498049401FDA9BB000D4E386 /* Build configuration list for PBXNativeTarget "RJProximityMeter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498049411FDA9BB000D4E386 /* Debug */,
+				498049421FDA9BB000D4E386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498049431FDA9BB000D4E386 /* Build configuration list for PBXNativeTarget "RJProximityMeterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498049441FDA9BB000D4E386 /* Debug */,
+				498049451FDA9BB000D4E386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		498049461FDA9BB000D4E386 /* Build configuration list for PBXNativeTarget "RJProximityMeterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				498049471FDA9BB000D4E386 /* Debug */,
+				498049481FDA9BB000D4E386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 498049101FDA9BB000D4E386 /* Project object */;
+}

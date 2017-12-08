@@ -1,0 +1,6 @@
+framework module Pods_RJProximityMeterUITests {
+  umbrella header "Pods-RJProximityMeterUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
